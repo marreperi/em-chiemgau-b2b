@@ -20,11 +20,13 @@
   }
 {%- endstyle -%}
 
+{% if customer %}
 {% render 'quick-order-list',
   product: product,
-  show_image: section.settings.show_image,
-  show_sku: section.settings.show_sku
-%}
+    show_image: section.settings.show_image,
+    show_sku: section.settings.show_sku
+  %}
+{% endif %}
 
 {% schema %}
 {
