@@ -312,9 +312,9 @@
     "featured_collection2": {
       "type": "featured-collection",
       "settings": {
-        "collection": "",
+        "collection": "sale",
         "products_to_show": 6,
-        "title": "Neuheiten",
+        "title": "Sale",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
