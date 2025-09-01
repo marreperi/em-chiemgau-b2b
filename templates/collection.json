@@ -17,11 +17,156 @@
         "color_scheme": "scheme-1"
       }
     },
+    "multicolumn_W6hGxr": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_AABHDm": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "Garten",
+            "link": "shopify://collections/garten"
+          }
+        },
+        "column_yiNc48": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "Reinigung",
+            "link": "shopify://collections/reinigung"
+          }
+        },
+        "column_NjJnjm": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "Wohlfühlen",
+            "link": "shopify://collections/wohlfuehlprodukte"
+          }
+        },
+        "column_jieLVY": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "Kosmetik",
+            "link": "shopify://collections/em-kosmetik"
+          }
+        },
+        "column_DAj7mq": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "Keramik",
+            "link": "shopify://collections/em-keramik-wasserenergetisierung"
+          }
+        },
+        "column_BmhziR": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "Agrar",
+            "link": "shopify://collections/landwirtschaft"
+          }
+        },
+        "column_36ibTq": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "Pferde",
+            "link": "shopify://collections/pferde"
+          }
+        },
+        "column_wT4NDP": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "Kleintiere",
+            "link": "shopify://collections/kleintiere"
+          }
+        },
+        "column_B6Tfw4": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "Gewässer",
+            "link": "shopify://collections/gewaessersanierung"
+          }
+        },
+        "column_EPqbd4": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "Wohnen",
+            "link": "shopify://collections/wohnqualitat"
+          }
+        },
+        "column_hHhmEL": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "Reisen",
+            "link": "shopify://collections/camping-urlaub"
+          }
+        },
+        "column_9meBPd": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "Ratgeber",
+            "link": "shopify://collections/ratgeber"
+          }
+        }
+      },
+      "block_order": [
+        "column_AABHDm",
+        "column_yiNc48",
+        "column_NjJnjm",
+        "column_jieLVY",
+        "column_DAj7mq",
+        "column_BmhziR",
+        "column_36ibTq",
+        "column_wT4NDP",
+        "column_B6Tfw4",
+        "column_EPqbd4",
+        "column_hHhmEL",
+        "column_9meBPd"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Unsere Produktkategorien",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
         "products_per_page": 20,
         "columns_desktop": 5,
+        "columns_mobile": "2",
         "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
@@ -32,7 +177,6 @@
         "enable_filtering": true,
         "filter_type": "horizontal",
         "enable_sorting": true,
-        "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -40,6 +184,7 @@
   },
   "order": [
     "banner",
+    "multicolumn_W6hGxr",
     "product-grid"
   ]
 }
