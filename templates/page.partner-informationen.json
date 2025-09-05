@@ -16,64 +16,38 @@
         "padding_bottom": 28
       }
     },
-    "collection_list_9bnEb3": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_UAEgEA": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_RRE4Rr": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_jFhxhx": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_JM8DH6": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_jmWeNw": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_eNnx6p": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_UAEgEA",
-        "featured_collection_RRE4Rr",
-        "featured_collection_jFhxhx",
-        "featured_collection_JM8DH6",
-        "featured_collection_jmWeNw",
-        "featured_collection_eNnx6p"
-      ],
-      "name": "t:sections.collection-list.presets.name",
+    "featured_blog_mL3MTG": {
+      "type": "featured-blog",
+      "name": "t:sections.featured-blog.presets.name",
       "settings": {
-        "title": "Kollektionen",
+        "blog": "",
+        "post_limit": 3,
+        "heading": "Blog-Beiträge",
         "heading_size": "h1",
-        "image_ratio": "square",
         "columns_desktop": 3,
+        "show_view_all": true,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
         "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_blog_PUymHh": {
+      "type": "featured-blog",
+      "name": "t:sections.featured-blog.presets.name",
+      "settings": {
+        "blog": "",
+        "post_limit": 3,
+        "heading": "Blog-Beiträge",
+        "heading_size": "h1",
+        "columns_desktop": 3,
+        "show_view_all": true,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -81,6 +55,7 @@
   },
   "order": [
     "main",
-    "collection_list_9bnEb3"
+    "featured_blog_mL3MTG",
+    "featured_blog_PUymHh"
   ]
 }
