@@ -16,38 +16,68 @@
         "padding_bottom": 28
       }
     },
-    "featured_blog_mL3MTG": {
-      "type": "featured-blog",
-      "name": "t:sections.featured-blog.presets.name",
+    "multicolumn_NHYUte": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_UgQcdk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Rategeber-fuer-den-EM-Garten_978d94b3-ed3e-4bc1-88cb-61bbe453b628.jpg",
+            "title": "Unsere Broschüren & Ratgeber",
+            "text": "<p><strong>I</strong>m EM-Chiemgau Shop kannst du alle Broschüren kostenlos bestellen oder als PDF downloaden. Du musst nur die gewünschte Broschüre wählen & im Beschreibungstext PDF-Download anklicken.<br/></p>",
+            "link_label": "Zu unseren Broschüren",
+            "link": "https://haendler.em-chiemgau.de/collections/ratgeber"
+          }
+        },
+        "column_AAtttY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Webinar-Reinigung-Gewerbe-B2B_637abeca-fb18-4329-99d3-6d03f9aabb0a.jpg",
+            "title": "Unsere EM-Webinare",
+            "text": "<p><br/>Unsere Webinare findest du kostenlos auf unserem  YouTube-Channel. Dort kannst du einfach das gewünschte Webinar auswählen & starten.<br/><br/></p>",
+            "link_label": "Zu unseren Webinaren",
+            "link": ""
+          }
+        },
+        "column_iNGeLL": {
+          "type": "column",
+          "settings": {
+            "title": "Spalte",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wwLeGm": {
+          "type": "column",
+          "settings": {
+            "title": "Spalte",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_UgQcdk",
+        "column_AAtttY",
+        "column_iNGeLL",
+        "column_wwLeGm"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "blog": "",
-        "post_limit": 3,
-        "heading": "Blog-Beiträge",
+        "title": "",
         "heading_size": "h1",
-        "columns_desktop": 3,
-        "show_view_all": true,
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "Schaltflächenbeschriftung",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_blog_PUymHh": {
-      "type": "featured-blog",
-      "name": "t:sections.featured-blog.presets.name",
-      "settings": {
-        "blog": "",
-        "post_limit": 3,
-        "heading": "Blog-Beiträge",
-        "heading_size": "h1",
-        "columns_desktop": 3,
-        "show_view_all": true,
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
-        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -55,7 +85,6 @@
   },
   "order": [
     "main",
-    "featured_blog_mL3MTG",
-    "featured_blog_PUymHh"
+    "multicolumn_NHYUte"
   ]
 }
