@@ -23,8 +23,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Rategeber-fuer-den-EM-Garten_978d94b3-ed3e-4bc1-88cb-61bbe453b628.jpg",
-            "title": "Unsere Broschüren & Ratgeber",
-            "text": "<p><strong>I</strong>m EM-Chiemgau Shop kannst du alle Broschüren kostenlos bestellen oder als PDF downloaden. Du musst nur die gewünschte Broschüre wählen & im Beschreibungstext PDF-Download anklicken.<br/></p>",
+            "title": "Broschüren & Ratgeber",
+            "text": "<p>Im EM-Chiemgau Shop kannst du alle Broschüren gratis bestellen oder als PDF downloaden – einfach auswählen & im Beschreibungstext auf PDF-Download klicken.</p>",
             "link_label": "Zu unseren Broschüren",
             "link": "https://haendler.em-chiemgau.de/collections/ratgeber"
           }
@@ -34,7 +34,7 @@
           "settings": {
             "image": "shopify://shop_images/Webinar-Reinigung-Gewerbe-B2B_637abeca-fb18-4329-99d3-6d03f9aabb0a.jpg",
             "title": "Unsere EM-Webinare",
-            "text": "<p><br/>Unsere Webinare findest du kostenlos auf unserem  YouTube-Channel. Dort kannst du einfach das gewünschte Webinar auswählen & starten.<br/><br/></p>",
+            "text": "<p>Unsere Webinare findest du kostenlos auf unserem  YouTube-Channel. Dort kannst du einfach das gewünschte Webinar auswählen & sofort durchstarten.<br/></p>",
             "link_label": "Zu unseren Webinaren",
             "link": ""
           }
@@ -77,7 +77,7 @@
         "background_style": "primary",
         "color_scheme": "",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
