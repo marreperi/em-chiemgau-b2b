@@ -70,7 +70,73 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "button_label": "Schaltflächenbeschriftung",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_cGyQP3": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_4C9i6H": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Rategeber-fuer-den-EM-Garten_978d94b3-ed3e-4bc1-88cb-61bbe453b628.jpg",
+            "title": "Broschüren & Ratgeber",
+            "text": "<p>Im EM-Chiemgau Shop kannst du alle Broschüren gratis bestellen oder als PDF downloaden – einfach auswählen & im Beschreibungstext auf PDF-Download klicken.</p>",
+            "link_label": "Zu unseren Broschüren",
+            "link": "https://haendler.em-chiemgau.de/collections/ratgeber"
+          }
+        },
+        "column_VN6cfN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Webinar-Reinigung-Gewerbe-B2B_637abeca-fb18-4329-99d3-6d03f9aabb0a.jpg",
+            "title": "Unsere EM-Webinare",
+            "text": "<p>Unsere Webinare findest du kostenlos auf unserem  YouTube-Channel. Dort kannst du einfach das gewünschte Webinar auswählen & sofort durchstarten.<br/></p>",
+            "link_label": "Zu unseren Webinaren",
+            "link": ""
+          }
+        },
+        "column_Jxm7KJ": {
+          "type": "column",
+          "settings": {
+            "title": "Spalte",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dnt4Q3": {
+          "type": "column",
+          "settings": {
+            "title": "Spalte",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_4C9i6H",
+        "column_VN6cfN",
+        "column_Jxm7KJ",
+        "column_dnt4Q3"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
         "button_link": "",
         "columns_desktop": 4,
         "column_alignment": "center",
@@ -85,6 +151,7 @@
   },
   "order": [
     "main",
-    "multicolumn_NHYUte"
+    "multicolumn_NHYUte",
+    "multicolumn_cGyQP3"
   ]
 }
