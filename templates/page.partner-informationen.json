@@ -137,11 +137,78 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_XNVAtR": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_dPkfzK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/aufkleber-ladent_C3_BCr.jpg",
+            "title": "EM-Chiemgau Partner Aufkleber",
+            "text": "<p>Du kannst den EM Partner Aufkleber einfach bei uns im Shop, oder per Email an marketing@em-chiemgau.de bestellen.</p>",
+            "link_label": "Zum Partner Aufkleber",
+            "link": "https://haendler.em-chiemgau.de/products/em-ladentuer-aufkleber?_pos=2&_sid=8c192e850&_ss=r"
+          }
+        },
+        "column_g7LB7Q": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Aufsteller-Reinigung-mit-EM-01_637f859a-f3a0-47d1-865f-696d7d324f93.jpg",
+            "title": "Aufsteller: Reinigung mit EM",
+            "text": "<p>Unseren Aufsteller kannst du per Email an marketing@em-chiemgau.de, oder direkt im Shop bestellen.</p>",
+            "link_label": "Zum Aufsteller",
+            "link": "https://haendler.em-chiemgau.de/products/aufsteller-reinigung-mit-em?_pos=1&_sid=9211b9d9d&_ss=r"
+          }
+        },
+        "column_md93LX": {
+          "type": "column",
+          "settings": {
+            "title": "EM-Chiemgau Beachflag",
+            "text": "<p>Unsere EM-Chiemgau-Flaggen mit dem Motiv <br/>erhältst du in einer unserer EM-Farben oder in deiner individuellen Wunschfarbe.</p>",
+            "link_label": "mehr zur Beachflag",
+            "link": ""
+          }
+        },
+        "column_83mUCE": {
+          "type": "column",
+          "settings": {
+            "title": "EM-Chiemgau Roll-Ups",
+            "text": "<p>In unserer großen Auswahl an Roll-Ups findest du garantiert den richtigen für deinen Laden oder dein Event.</p>",
+            "link_label": "mehr zu den Roll-Ups",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_dPkfzK",
+        "column_g7LB7Q",
+        "column_md93LX",
+        "column_83mUCE"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Werbematerial",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "multicolumn_NHYUte",
-    "multicolumn_cGyQP3"
+    "multicolumn_cGyQP3",
+    "multicolumn_XNVAtR"
   ]
 }
