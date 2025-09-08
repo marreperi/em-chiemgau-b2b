@@ -43,7 +43,7 @@
           "type": "column",
           "settings": {
             "title": "Händlervereinbarung",
-            "text": "<p>Hier findest du alle aktuellen Sicherheitsdatenblätter zu unseren Produkten. Einfach das gewünschte Produkt wählen & Datenblatt downloaden</p>",
+            "text": "<p><br/>Unsere Händlervereinbarung regelt die partnerschaftliche Zusammenarbeit zwischen EM-Chiemgau und unseren Vertriebspartnern.</p>",
             "link_label": "Zur Händlervereinbarung",
             "link": "https://drive.google.com/drive/folders/1poZvlZa_GXAv6EhkL_61eGBZBLIUHMeu"
           }
