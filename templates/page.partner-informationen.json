@@ -178,13 +178,53 @@
             "link_label": "mehr zu den Roll-Ups",
             "link": ""
           }
+        },
+        "column_mdLfVA": {
+          "type": "column",
+          "settings": {
+            "title": "Plakate",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
+            "link_label": "Zu den Plakaten",
+            "link": ""
+          }
+        },
+        "column_9VcBcT": {
+          "type": "column",
+          "settings": {
+            "title": "PowerPoints",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
+            "link_label": "Zu den Präsentationen",
+            "link": ""
+          }
+        },
+        "column_RHrLrc": {
+          "type": "column",
+          "settings": {
+            "title": "Produktfotos",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
+            "link_label": "Zu den Produktfotos",
+            "link": ""
+          }
+        },
+        "column_cpgYdL": {
+          "type": "column",
+          "settings": {
+            "title": "Infografiken",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
+            "link_label": "Zu den Infografiken",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_dPkfzK",
         "column_g7LB7Q",
         "column_md93LX",
-        "column_83mUCE"
+        "column_83mUCE",
+        "column_mdLfVA",
+        "column_9VcBcT",
+        "column_RHrLrc",
+        "column_cpgYdL"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
