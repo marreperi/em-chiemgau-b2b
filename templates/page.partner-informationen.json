@@ -45,7 +45,7 @@
             "title": "Händlervereinbarung",
             "text": "<p><br/>Unsere Händlervereinbarung regelt die partnerschaftliche Zusammenarbeit zwischen EM-Chiemgau und unseren Vertriebspartnern.</p>",
             "link_label": "Zur Händlervereinbarung",
-            "link": "https://drive.google.com/drive/folders/1poZvlZa_GXAv6EhkL_61eGBZBLIUHMeu"
+            "link": "https://drive.google.com/drive/folders/1H9M_xtbUl-1DUXl7Rp5BkxhsAajrVKnv"
           }
         }
       },
@@ -56,7 +56,7 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "",
+        "title": "Allgemeines",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -107,9 +107,9 @@
         "column_dnt4Q3": {
           "type": "column",
           "settings": {
-            "title": "Spalte",
+            "title": "Ihre Ansprechpartner",
             "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
-            "link_label": "",
+            "link_label": "Zu den Kontaktdaten",
             "link": ""
           }
         }
