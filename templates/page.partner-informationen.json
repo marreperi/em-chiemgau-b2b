@@ -99,7 +99,7 @@
           "type": "column",
           "settings": {
             "title": "Sicherheitsdatenblätter",
-            "text": "<p>Hier findest du alle aktuellen Sicherheitsdatenblätter zu unseren Produkten. Einfach das gewünschte Produkt wählen & Datenblatt downloaden</p>",
+            "text": "<p>Hier findest du alle Sicherheitsdatenblätter zu unseren Produkten. Einfach das gewünschte Produkt wählen & Datenblatt downloaden</p>",
             "link_label": "Zu den Datenblättern",
             "link": "https://drive.google.com/drive/folders/1poZvlZa_GXAv6EhkL_61eGBZBLIUHMeu"
           }
