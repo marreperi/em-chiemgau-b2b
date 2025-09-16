@@ -19,6 +19,15 @@
     "multicolumn_hX8Ffj": {
       "type": "multicolumn",
       "blocks": {
+        "column_a6YwT6": {
+          "type": "column",
+          "settings": {
+            "title": "Allgemein (Händler & Affiliate)",
+            "text": "<p><strong>Kontakt:<br/></strong>partner@em-chiemgau.de</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_AyiBh4": {
           "type": "column",
           "settings": {
@@ -42,6 +51,15 @@
           "settings": {
             "title": "Rechnungen",
             "text": "<p><strong>Aufgaben:</strong></p><ul><li>Fragen zu Rechnungen und Zahlungen</li><li>Auskunft zu offenen Posten</li><li>Klärung von Gutschriften oder Korrekturen</li></ul><p><strong>Kontakt:<br/></strong>buchhaltung@em-chiemgau.de</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bib86A": {
+          "type": "column",
+          "settings": {
+            "title": "Palettenware",
+            "text": "<p><strong>Kontakt:</strong><br/>spedition@em-chiemgau.de</p>",
             "link_label": "",
             "link": ""
           }
@@ -75,9 +93,11 @@
         }
       },
       "block_order": [
+        "column_a6YwT6",
         "column_AyiBh4",
         "column_Cdyncb",
         "column_cX8HWe",
+        "column_bib86A",
         "column_FnpBzb",
         "column_Y9nyLy",
         "column_HxB9th"
