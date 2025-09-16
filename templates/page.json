@@ -22,8 +22,8 @@
         "column_AyiBh4": {
           "type": "column",
           "settings": {
-            "title": "Spalte",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
+            "title": "Bestellungen",
+            "text": "<p><strong>Aufgaben:</strong></p><ul><li>Aufnahme und Bearbeitung von Bestellungen</li><li>Auskunft zu Lieferzeiten und Verfügbarkeit</li><li>Unterstützung bei Sonderanfragen</li></ul><p><strong>Kontakt:<br/></strong>bestellung@em-chiemgau.de</p>",
             "link_label": "",
             "link": ""
           }
@@ -31,8 +31,8 @@
         "column_Cdyncb": {
           "type": "column",
           "settings": {
-            "title": "Spalte",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
+            "title": "Reklamationen",
+            "text": "<p><strong>Aufgaben:</strong></p><ul><li>Bearbeitung von Reklamationen und Rücksendungen</li><li>Klärung von Qualitäts- und Lieferproblemen</li><li>Lösungen für Ersatz- oder Gutschriften</li></ul><p><strong>Kontakt:</strong><br/>reklamation@em-chiemgau.de</p>",
             "link_label": "",
             "link": ""
           }
@@ -40,8 +40,35 @@
         "column_cX8HWe": {
           "type": "column",
           "settings": {
-            "title": "Spalte",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
+            "title": "Rechnungen",
+            "text": "<p><strong>Aufgaben:</strong></p><ul><li>Fragen zu Rechnungen und Zahlungen</li><li>Auskunft zu offenen Posten</li><li>Klärung von Gutschriften oder Korrekturen</li></ul><p><strong>Kontakt:<br/></strong>buchhaltung@em-chiemgau.de</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FnpBzb": {
+          "type": "column",
+          "settings": {
+            "title": "Marketing",
+            "text": "<p><strong>Aufgaben:</strong></p><ul><li>Anfrage & Bestellung von Werbematerialien</li><li>Beratung zu Aktionen</li></ul><p><strong>Kontakt:</strong><br/>marketing@em-chiemgau.de</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Y9nyLy": {
+          "type": "column",
+          "settings": {
+            "title": "Info",
+            "text": "<p><strong>Kontakt:<br/></strong>info@em.chiemgau.de</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HxB9th": {
+          "type": "column",
+          "settings": {
+            "title": "Chiemgau Agrar",
+            "text": "<p><strong>Aufgaben:</strong></p><ul><li>Beratung zu landwirtschaftlichen Produkten</li><li>Informationen zu regionalen Kooperationen</li></ul><p><strong>Kontakt:<br/></strong>agrar@em-chiemgau.de</p>",
             "link_label": "",
             "link": ""
           }
@@ -50,7 +77,10 @@
       "block_order": [
         "column_AyiBh4",
         "column_Cdyncb",
-        "column_cX8HWe"
+        "column_cX8HWe",
+        "column_FnpBzb",
+        "column_Y9nyLy",
+        "column_HxB9th"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
