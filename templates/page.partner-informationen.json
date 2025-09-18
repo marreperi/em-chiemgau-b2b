@@ -107,6 +107,7 @@
         "column_dnt4Q3": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/partner_programm_2.jpg",
             "title": "Ihre Ansprechpartner",
             "text": "<p>Dort findest du den richtigen Kontakt für dein Anliegen - ganz gleich, in welchem Bereich du Unterstützung oder Informationen benötigst.</p>",
             "link_label": "Zu den Kontaktdaten",
