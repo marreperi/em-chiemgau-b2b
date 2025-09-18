@@ -22,6 +22,7 @@
         "column_gjVwdR": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/partner_programm_1.jpg",
             "title": "Allgemein (Händler & Affiliate)",
             "text": "<h4><strong>Kontakt:<br/></strong>partner@em-chiemgau.de</h4>",
             "link_label": "",
