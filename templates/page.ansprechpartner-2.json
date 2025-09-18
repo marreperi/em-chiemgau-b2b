@@ -1,0 +1,128 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "multicolumn_hX8Ffj": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_a6YwT6": {
+          "type": "column",
+          "settings": {
+            "title": "Allgemein (Händler & Affiliate)",
+            "text": "<p><strong>Kontakt:<br/></strong>partner@em-chiemgau.de</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AyiBh4": {
+          "type": "column",
+          "settings": {
+            "title": "Bestellungen",
+            "text": "<p><strong>Aufgaben:</strong></p><ul><li>Aufnahme und Bearbeitung von Bestellungen</li><li>Auskunft zu Lieferzeiten und Verfügbarkeit</li><li>Unterstützung bei Sonderanfragen</li></ul><p><strong>Kontakt:<br/></strong>bestellung@em-chiemgau.de</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Cdyncb": {
+          "type": "column",
+          "settings": {
+            "title": "Reklamationen",
+            "text": "<p><strong>Aufgaben:</strong></p><ul><li>Bearbeitung von Reklamationen und Rücksendungen</li><li>Klärung von Qualitäts- und Lieferproblemen</li><li>Lösungen für Ersatz- oder Gutschriften</li></ul><p><strong>Kontakt:</strong><br/>reklamation@em-chiemgau.de</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cX8HWe": {
+          "type": "column",
+          "settings": {
+            "title": "Rechnungen",
+            "text": "<p><strong>Aufgaben:</strong></p><ul><li>Fragen zu Rechnungen und Zahlungen</li><li>Auskunft zu offenen Posten</li><li>Klärung von Gutschriften oder Korrekturen</li></ul><p><strong>Kontakt:<br/></strong>buchhaltung@em-chiemgau.de</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bib86A": {
+          "type": "column",
+          "settings": {
+            "title": "Palettenware",
+            "text": "<p><strong>Kontakt:</strong><br/>spedition@em-chiemgau.de</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FnpBzb": {
+          "type": "column",
+          "settings": {
+            "title": "Marketing",
+            "text": "<p><strong>Aufgaben:</strong></p><ul><li>Anfrage & Bestellung von Werbematerialien</li><li>Beratung zu Aktionen</li></ul><p><strong>Kontakt:</strong><br/>marketing@em-chiemgau.de</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Y9nyLy": {
+          "type": "column",
+          "settings": {
+            "title": "Info",
+            "text": "<p><strong>Kontakt:<br/></strong>info@em.chiemgau.de</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HxB9th": {
+          "type": "column",
+          "settings": {
+            "title": "Chiemgau Agrar",
+            "text": "<p><strong>Aufgaben:</strong></p><ul><li>Beratung zu landwirtschaftlichen Produkten</li><li>Informationen zu regionalen Kooperationen</li></ul><p><strong>Kontakt:<br/></strong>agrar@em-chiemgau.de</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_a6YwT6",
+        "column_AyiBh4",
+        "column_Cdyncb",
+        "column_cX8HWe",
+        "column_bib86A",
+        "column_FnpBzb",
+        "column_Y9nyLy",
+        "column_HxB9th"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multicolumn_hX8Ffj"
+  ]
+}
