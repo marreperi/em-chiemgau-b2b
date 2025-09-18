@@ -23,7 +23,7 @@
           "type": "column",
           "settings": {
             "title": "Allgemein (Händler & Affiliate)",
-            "text": "<p><strong>Kontakt:<br/></strong>partner@em-chiemgau.de</p>",
+            "text": "<h4><strong>Kontakt:<br/></strong>partner@em-chiemgau.de</h4>",
             "link_label": "",
             "link": ""
           }
@@ -32,7 +32,7 @@
           "type": "column",
           "settings": {
             "title": "Bestellungen",
-            "text": "<p><strong>Aufgaben:</strong></p><ul><li>Aufnahme und Bearbeitung von Bestellungen</li><li>Auskunft zu Lieferzeiten und Verfügbarkeit</li><li>Unterstützung bei Sonderanfragen</li></ul><p><strong>Kontakt:<br/></strong>bestellung@em-chiemgau.de</p>",
+            "text": "<h4><strong>Aufgaben:</strong></h4><h4>Aufnahme und Bearbeitung von Bestellungen</h4><h4>Auskunft zu Lieferzeiten und Verfügbarkeit</h4><h4>Unterstützung bei Sonderanfragen</h4><h4><strong>Kontakt:<br/></strong>bestellung@em-chiemgau.de</h4>",
             "link_label": "",
             "link": ""
           }
@@ -41,7 +41,7 @@
           "type": "column",
           "settings": {
             "title": "Reklamationen",
-            "text": "<p><strong>Aufgaben:</strong></p><ul><li>Bearbeitung von Reklamationen und Rücksendungen</li><li>Klärung von Qualitäts- und Lieferproblemen</li><li>Lösungen für Ersatz- oder Gutschriften</li></ul><p><strong>Kontakt:</strong><br/>reklamation@em-chiemgau.de</p>",
+            "text": "<h4><strong>Aufgaben:</strong></h4><h4>Bearbeitung von Reklamationen und Rücksendungen</h4><h4>Klärung von Qualitäts- und Lieferproblemen</h4><h4>Lösungen für Ersatz- oder Gutschriften</h4><h4><strong>Kontakt:</strong><br/>reklamation@em-chiemgau.de</h4>",
             "link_label": "",
             "link": ""
           }
@@ -50,7 +50,7 @@
           "type": "column",
           "settings": {
             "title": "Rechnungen",
-            "text": "<p><strong>Aufgaben:</strong></p><ul><li>Fragen zu Rechnungen und Zahlungen</li><li>Auskunft zu offenen Posten</li><li>Klärung von Gutschriften oder Korrekturen</li></ul><p><strong>Kontakt:<br/></strong>buchhaltung@em-chiemgau.de</p>",
+            "text": "<h4><strong>Aufgaben:</strong></h4><h4>Fragen zu Rechnungen und Zahlungen</h4><h4>Auskunft zu offenen Posten</h4><h4>Klärung von Gutschriften oder Korrekturen</h4><h4><strong>Kontakt:<br/></strong>buchhaltung@em-chiemgau.de</h4>",
             "link_label": "",
             "link": ""
           }
@@ -59,7 +59,7 @@
           "type": "column",
           "settings": {
             "title": "Palettenware",
-            "text": "<p><strong>Kontakt:</strong><br/>spedition@em-chiemgau.de</p>",
+            "text": "<h4><strong>Kontakt:</strong><br/>spedition@em-chiemgau.de</h4>",
             "link_label": "",
             "link": ""
           }
@@ -68,7 +68,7 @@
           "type": "column",
           "settings": {
             "title": "Marketing",
-            "text": "<p><strong>Aufgaben:</strong></p><ul><li>Anfrage & Bestellung von Werbematerialien</li><li>Beratung zu Aktionen</li></ul><p><strong>Kontakt:</strong><br/>marketing@em-chiemgau.de</p>",
+            "text": "<h4><strong>Aufgaben:</strong></h4><h4>Anfrage & Bestellung von Werbematerialien</h4><h4>Beratung zu Aktionen</h4><h4><strong>Kontakt:</strong><br/>marketing@em-chiemgau.de</h4>",
             "link_label": "",
             "link": ""
           }
@@ -77,7 +77,7 @@
           "type": "column",
           "settings": {
             "title": "Info",
-            "text": "<p><strong>Kontakt:<br/></strong>info@em.chiemgau.de</p>",
+            "text": "<h4><strong>Kontakt:<br/></strong>info@em.chiemgau.de</h4>",
             "link_label": "",
             "link": ""
           }
@@ -86,7 +86,7 @@
           "type": "column",
           "settings": {
             "title": "Chiemgau Agrar",
-            "text": "<p><strong>Aufgaben:</strong></p><ul><li>Beratung zu landwirtschaftlichen Produkten</li><li>Informationen zu regionalen Kooperationen</li></ul><p><strong>Kontakt:<br/></strong>agrar@em-chiemgau.de</p>",
+            "text": "<h4><strong>Aufgaben:</strong></h4><h4>Beratung zu landwirtschaftlichen Produkten</h4><h4>Informationen zu regionalen Kooperationen</h4><h4><strong>Kontakt:<br/></strong>agrar@em-chiemgau.de</h4>",
             "link_label": "",
             "link": ""
           }
