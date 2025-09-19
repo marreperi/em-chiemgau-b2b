@@ -72,6 +72,7 @@
         "column_NWeHe4": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/partner_marketing_icon_1.png",
             "title": "Marketing",
             "text": "<h4><strong>Aufgaben:</strong></h4><h4>Anfrage & Bestellung von Werbematerialien</h4><h4>Beratung zu Aktionen</h4><h4><strong>Kontakt:</strong><br/>marketing@em-chiemgau.de</h4>",
             "link_label": "",
@@ -81,6 +82,7 @@
         "column_x3Vqn8": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/partner_info_icon_1.png",
             "title": "Info",
             "text": "<h4><strong>Kontakt:<br/></strong>info@em.chiemgau.de</h4>",
             "link_label": "",
