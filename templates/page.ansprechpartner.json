@@ -92,6 +92,7 @@
         "column_YYWGTH": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/partner_agrar_icon_1.png",
             "title": "Chiemgau Agrar",
             "text": "<h4><strong>Aufgaben:</strong></h4><h4>Beratung zu landwirtschaftlichen Produkten</h4><h4>Informationen zu regionalen Kooperationen</h4><h4><strong>Kontakt:<br/></strong>agrar@em-chiemgau.de</h4>",
             "link_label": "",
