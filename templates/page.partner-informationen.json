@@ -111,7 +111,7 @@
             "title": "Deine Ansprechpartner",
             "text": "<p>Dort findest du den richtigen Kontakt für dein Anliegen - ganz gleich, in welchem Bereich du Unterstützung oder Informationen benötigst.</p>",
             "link_label": "Zu den Kontaktdaten",
-            "link": "https://docs.google.com/spreadsheets/d/1D1Y8YGztNGkmAcEi7RizQk_UnZotekPw2N51AmPA0cQ/edit?gid=0#gid=0"
+            "link": "shopify://pages/ansprechpartner-fur-handler"
           }
         }
       },
