@@ -42,8 +42,9 @@
         "column_wwLeGm": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/partner_haendlervereinbarung_icon_1.png",
             "title": "Händlervereinbarung",
-            "text": "<p><br/>Unsere Händlervereinbarung regelt die partnerschaftliche Zusammenarbeit zwischen EM-Chiemgau und unseren Vertriebspartnern.</p>",
+            "text": "<p>Unsere Händlervereinbarung regelt die partnerschaftliche Zusammenarbeit zwischen EM-Chiemgau und unseren Vertriebspartnern.</p>",
             "link_label": "Zur Händlervereinbarung",
             "link": "https://admin.shopify.com/store/em-chiemgau-agrar/content/files/31514163216556?query=pdf"
           }
