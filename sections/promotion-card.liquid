@@ -4,10 +4,6 @@
   "max_blocks": 12,
   "settings": [
     {
-      "type": "header",
-      "content": "Überschrift"
-    },
-    {
       "type": "text",
       "id": "heading",
       "label": "Überschrift",
@@ -22,7 +18,7 @@
     {
       "type": "select",
       "id": "section_heading_layout",
-      "label": "Ausrichtung Überschrift",
+      "label": "Überschriften-Ausrichtung",
       "options": [
         { "value": "section-heading--left", "label": "Links" },
         { "value": "section-heading--center", "label": "Zentriert" }
@@ -30,141 +26,15 @@
       "default": "section-heading--left"
     },
     {
-      "type": "header",
-      "content": "Layout"
-    },
-    {
       "type": "select",
       "id": "layout",
-      "label": "Spalten",
+      "label": "Spalten-Layout",
       "options": [
         { "value": "grid-2 grid-lap-1", "label": "2 Spalten" },
         { "value": "grid-3 grid-lap-1", "label": "3 Spalten" },
         { "value": "grid-4 grid-portable-2 grid-lap-1", "label": "4 Spalten" }
       ],
       "default": "grid-3 grid-lap-1"
-    },
-    {
-      "type": "select",
-      "id": "image_aspect_ratio",
-      "label": "Bild Seitenverhältnis",
-      "options": [
-        { "value": "1.33333", "label": "4:3" },
-        { "value": "1", "label": "Quadrat" },
-        { "value": "0.83333", "label": "5:6" },
-        { "value": "0.666667", "label": "2:3" }
-      ],
-      "default": "1"
-    },
-    {
-      "type": "select",
-      "id": "text_alignment",
-      "label": "Textausrichtung",
-      "options": [
-        { "value": "text-align--left", "label": "Links" },
-        { "value": "text-align--center", "label": "Zentriert" },
-        { "value": "text-align--right", "label": "Rechts" }
-      ],
-      "default": "text-align--center"
-    },
-    {
-      "type": "select",
-      "id": "caption_size",
-      "label": "Größe Untertitel",
-      "options": [
-        { "value": "small increased-spacing", "label": "Klein" },
-        { "value": "regular", "label": "Normal" },
-        { "value": "large", "label": "Groß" }
-      ],
-      "default": "regular"
-    },
-    {
-      "type": "select",
-      "id": "title_size",
-      "label": "Titelgröße",
-      "options": [
-        { "value": "h4", "label": "H4" },
-        { "value": "h3", "label": "H3" },
-        { "value": "h2", "label": "H2" },
-        { "value": "h1", "label": "H1" }
-      ],
-      "default": "h3"
-    },
-    {
-      "type": "select",
-      "id": "subtitle_size",
-      "label": "Untertitelgröße",
-      "options": [
-        { "value": "regular", "label": "Normal" },
-        { "value": "large", "label": "Groß" }
-      ],
-      "default": "regular"
-    },
-    {
-      "type": "select",
-      "id": "button_size",
-      "label": "Button-Größe",
-      "options": [
-        { "value": "regular", "label": "Normal" },
-        { "value": "large", "label": "Groß" }
-      ],
-      "default": "large"
-    },
-    {
-      "id": "button_style",
-      "label": "Button-Stil",
-      "type": "select",
-      "options": [
-        { "value": "outline", "label": "Umrandet" },
-        { "value": "solid", "label": "Gefüllt" }
-      ],
-      "default": "outline"
-    },
-    {
-      "id": "button_width",
-      "label": "Button-Breite",
-      "type": "select",
-      "options": [
-        { "value": "fullwidth", "label": "Volle Breite" },
-        { "value": "fit", "label": "An Inhalt angepasst" }
-      ],
-      "default": "fullwidth"
-    },
-    {
-      "type": "color",
-      "id": "section_background_color",
-      "label": "Hintergrundfarbe",
-      "default": "rgba(0,0,0,0)"
-    },
-    {
-      "type": "color_background",
-      "id": "section_background_gradient",
-      "label": "Hintergrundverlauf"
-    },
-    {
-      "type": "color",
-      "id": "section_heading_color",
-      "label": "Textfarbe Überschrift",
-      "default": "rgba(0,0,0,0)"
-    },
-    {
-      "type": "checkbox",
-      "id": "remove_margin",
-      "label": "Außenabstände entfernen",
-      "default": false
-    },
-    {
-      "type": "select",
-      "id": "seo_h_tag",
-      "label": "SEO-Überschrift-Tag",
-      "options": [
-        { "value": "h1", "label": "H1" },
-        { "value": "h2", "label": "H2" },
-        { "value": "h3", "label": "H3" },
-        { "value": "h4", "label": "H4" },
-        { "value": "span", "label": "Span" }
-      ],
-      "default": "h2"
     }
   ],
   "blocks": [
@@ -172,33 +42,12 @@
       "type": "card",
       "name": "Promotion-Karte",
       "settings": [
-        { "id": "image", "type": "image_picker", "label": "Bild" },
+        { "type": "image_picker", "id": "image", "label": "Bild" },
         { "type": "text", "id": "caption", "label": "Untertitel", "default": "Introducing" },
         { "type": "text", "id": "title", "label": "Titel", "default": "Your best promotion yet" },
-        { "type": "text", "id": "subtitle", "label": "Untertitel", "default": "Write about it" },
+        { "type": "text", "id": "subtitle", "label": "Beschreibung", "default": "Write about it" },
         { "type": "url", "id": "link", "label": "Link" },
-        { "type": "checkbox", "id": "open_in_new_window", "label": "In neuem Fenster öffnen", "default": false },
-        { "type": "text", "id": "button_label", "label": "Button-Text", "default": "Show more" },
-        { "type": "color", "id": "color_background_main", "label": "Hintergrundfarbe", "default": "rgba(0,0,0,0)" },
-        { "type": "color", "id": "color_text_main", "label": "Textfarbe", "default": "rgba(0,0,0,0)" },
-        { "type": "color", "id": "color_accent_main", "label": "Akzentfarbe", "default": "rgba(0,0,0,0)" },
-        { "type": "color", "id": "color_borders_main", "label": "Rahmenfarbe", "default": "rgba(0,0,0,0)" },
-        { "type": "color", "id": "color_shadow_main", "label": "Schattenfarbe", "default": "rgba(0,0,0,0)" },
-        { "type": "checkbox", "id": "color_hide_borders", "label": "Rahmen ausblenden", "default": false },
-        { "type": "checkbox", "id": "color_hide_shadow", "label": "Schatten ausblenden", "default": false },
-        {
-          "type": "select",
-          "id": "seo_h_tag",
-          "label": "SEO-Überschrift-Tag",
-          "options": [
-            { "value": "h1", "label": "H1" },
-            { "value": "h2", "label": "H2" },
-            { "value": "h3", "label": "H3" },
-            { "value": "h4", "label": "H4" },
-            { "value": "span", "label": "Span" }
-          ],
-          "default": "h3"
-        }
+        { "type": "text", "id": "button_label", "label": "Button-Text", "default": "Mehr erfahren" }
       ]
     }
   ],
@@ -211,7 +60,6 @@
         { "type": "card" }
       ]
     }
-  ],
-  "disabled_on": { "groups": ["header"] }
+  ]
 }
 {% endschema %}
