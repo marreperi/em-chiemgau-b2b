@@ -38,10 +38,21 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "custom_liquid_ekaWk4": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  /* Vertikale Liste mit Icon, an Theme-Breite ausgerichtet */\n  .pdf-wrap { /* bei Dawn u. vielen OS2.0-Themes passt page-width die Seitenränder an */\n    /* falls dein Theme die Klasse nicht kennt, lass page-width weg oder nutze container/content-container */\n  }\n  .pdf-list { list-style: none; padding-left: 0; margin: 0; }\n  .pdf-item { display: flex; align-items: flex-start; gap: .5rem; margin: 0 0 10px 0; }\n  .pdf-item a { text-decoration: none; }\n  .pdf-item a:hover { text-decoration: underline; }\n  .pdf-icon { width: 18px; height: 18px; flex: 0 0 18px; margin-top: 2px; }\n</style>\n\n<div class=\"pdf-wrap page-width rte\">\n  <ul class=\"pdf-list\">\n    {% assign pdfs = \"\n    SDB Blitzblank Kalklöser.pdf|,\n    SDB Bodenverjünger.pdf|,\n    SDB CFKE.pdf|,\n    SDB EM Keramikpulver.pdf|,\n    SDB EM-aktiv.pdf|,\n    SDB EM-blond.pdf|,\n    SDB EM-Spüli.pdf|,\n    SDB EMB-aktiv.pdf|,\n    SDB Greengold.pdf|,\n    SDB Karbofit.pdf|,\n    SDB Melklauge.pdf|,\n    SDB Melksäure.pdf|,\n    SDB Mikrorein.pdf|,\n    SDB Pegasus.pdf|,\n    SDB Pflanzenkohle Karbosave.pdf|,\n    SDB Picobello Sauerstoffbleiche.pdf|,\n    SDB RoPro 13/20.pdf|,\n    SDB RoPro Startfit.pdf|,\n    SDB Sapalotta.pdf|,\n    SDB Scharfes Blond.pdf|,\n    SDB Schwefel-Kathi Schwefel-Dünger.pdf\n    \" | split: \"|,\" %}\n\n    {% for name in pdfs %}\n      {% assign n = name | strip %}\n      {% if n != \"\" %}\n        <li class=\"pdf-item\">\n          <!-- PDF-Icon -->\n          <svg class=\"pdf-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n            <path d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\" fill=\"#ef4444\"/>\n            <path d=\"M14 2v6h6\" fill=\"#fee2e2\"/>\n          </svg>\n          <a href=\"{{ n | file_url }}\" target=\"_blank\" rel=\"noopener\">{{ n }}</a>\n        </li>\n      {% endif %}\n    {% endfor %}\n  </ul>\n</div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "rich_text_FkkcyY"
+    "rich_text_FkkcyY",
+    "custom_liquid_ekaWk4"
   ]
 }
