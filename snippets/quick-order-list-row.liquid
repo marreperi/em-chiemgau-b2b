@@ -246,6 +246,10 @@
                   <ul class="list-unstyled">
                     <li>
                       <span>{{ variant.quantity_rule.min }}+</span>
+                      {%- assign base_price = item.price -%}
+                      {%- assign discount_amount = base_price | minus: variant.price -%}
+                      {%- assign discount_percentage = discount_amount | times: 100.0 | divided_by: base_price | round -%}
+                      <span style="color: red;">{{ discount_percentage }}%</span>
                       {%- assign price = variant.price | money_with_currency -%}
                       <span>{{ 'sections.quick_order_list.each' | t: money: price }}</span>
                     </li>
