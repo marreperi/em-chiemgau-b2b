@@ -22,7 +22,7 @@
         "column_AAtttY": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/affiliate_partner_programm.jpg",
+            "image": "shopify://shop_images/Affiliate_Login.jpg",
             "title": "Affiliate Login",
             "text": "<p>Wenn du bereits ein Affiliate-Partner bist, kannst Du Dich unter folgendem Link in das Affiliate-Programm einloggen</p>",
             "link_label": "Zum Affiliate Login",
@@ -42,7 +42,7 @@
         "column_wwLeGm": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/partner_haendlervereinbarung_icon_1.png",
+            "image": "shopify://shop_images/Haendlervereinbarung.jpg",
             "title": "Händlervereinbarung",
             "text": "<p>Unsere Händlervereinbarung regelt die partnerschaftliche Zusammenarbeit zwischen EM-Chiemgau und unseren Vertriebspartnern.</p>",
             "link_label": "Zur Händlervereinbarung",
@@ -109,7 +109,7 @@
         "column_dnt4Q3": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/partner_ansprechpartner_icon_1.png",
+            "image": "shopify://shop_images/Ansprechpartner.jpg",
             "title": "Deine Ansprechpartner",
             "text": "<p>Dort findest du den richtigen Kontakt für dein Anliegen - ganz gleich, in welchem Bereich du Unterstützung oder Informationen benötigst.</p>",
             "link_label": "Zu den Kontaktdaten",
