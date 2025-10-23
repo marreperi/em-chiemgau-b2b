@@ -32,7 +32,7 @@
         "column_iNGeLL": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Preisliste-LW-2025-VS_28f2c37f-36bb-4d59-8827-984b2201056a.jpg",
+            "image": "shopify://shop_images/Preisliste.jpg",
             "title": "EM Partner Preisliste",
             "text": "<p>Als EM-Chiemgau Partner erhältst du Zugriff auf unsere aktuelle Preisliste mit Sonderkonditionen. Einfach öffnen & downloaden.</p>",
             "link_label": "Zu der Händler Preisliste",
@@ -79,7 +79,7 @@
         "column_4C9i6H": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Rategeber-fuer-den-EM-Garten_978d94b3-ed3e-4bc1-88cb-61bbe453b628.jpg",
+            "image": "shopify://shop_images/Broschueren.jpg",
             "title": "Broschüren & Ratgeber",
             "text": "<p>Im EM-Chiemgau Shop kannst du alle Broschüren gratis bestellen oder als PDF downloaden – einfach im Beschreibungstext auf PDF-Download klicken.</p>",
             "link_label": "Zu unseren Broschüren",
@@ -89,7 +89,7 @@
         "column_VN6cfN": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Webinar-Reinigung-Gewerbe-B2B_637abeca-fb18-4329-99d3-6d03f9aabb0a.jpg",
+            "image": "shopify://shop_images/Webinare_305e7f2b-1473-4bb9-8145-669d3959be27.jpg",
             "title": "Unsere EM-Webinare",
             "text": "<p>Unsere Webinare findest du kostenlos auf unserem  YouTube-Channel. Dort kannst du das gewünschte Webinar auswählen & sofort durchstarten.<br/></p>",
             "link_label": "Zu unseren Webinaren",
@@ -99,6 +99,7 @@
         "column_Jxm7KJ": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Sicherheitsdatenblaetter.jpg",
             "title": "Sicherheitsdatenblätter",
             "text": "<p>Hier findest du alle Sicherheitsdatenblätter zu unseren Produkten. Einfach das gewünschte Produkt wählen & Datenblatt downloaden</p>",
             "link_label": "Zu den Datenblättern",
@@ -146,7 +147,7 @@
         "column_dPkfzK": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/aufkleber-ladent_C3_BCr.jpg",
+            "image": "shopify://shop_images/Aufkleber.jpg",
             "title": "EM-Chiemgau Partner Aufkleber",
             "text": "<p>Du kannst den EM Partner Aufkleber einfach bei uns im Shop, oder per Email an marketing@em-chiemgau.de bestellen.</p>",
             "link_label": "Zum Partner Aufkleber",
@@ -166,6 +167,7 @@
         "column_md93LX": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Beachflags.jpg",
             "title": "EM-Chiemgau Beachflag",
             "text": "<p>Unsere EM-Chiemgau-Flaggen mit dem Motiv <br/>erhältst du in einer unserer EM-Farben oder in deiner individuellen Wunschfarbe.</p>",
             "link_label": "Zur Beachflag",
@@ -175,6 +177,7 @@
         "column_83mUCE": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/RollUp.jpg",
             "title": "EM-Chiemgau Roll-Ups",
             "text": "<p>In unserer großen Auswahl an Roll-Ups findest du garantiert das richtige für deinen Laden oder dein Event.</p>",
             "link_label": "Zu den Roll-Ups",
@@ -184,6 +187,7 @@
         "column_mdLfVA": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Plakte.jpg",
             "title": "Plakate",
             "text": "<p>Hier findest du alle Plakate zu den verschiedensten Themen.<br/>Einfach das gewünschte Plakat auswählen & herunterladen.<br/></p>",
             "link_label": "Zu den Plakaten",
@@ -193,6 +197,7 @@
         "column_9VcBcT": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/PowerPoints.jpg",
             "title": "PowerPoints",
             "text": "<p>Bei uns findest du die passenden PowerPoint-Präsentationen rund um die verschiedensten Bereiche mit dem Einsatz von EM.</p>",
             "link_label": "Zu den Präsentationen",
@@ -202,6 +207,7 @@
         "column_RHrLrc": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Produktfotos.jpg",
             "title": "Produktfotos",
             "text": "<p>Zu allen Produkten die wir anbieten haben wir natürlich auch die passenden Produktfotos für dich und deinen Onlineshop.</p>",
             "link_label": "Zu den Produktfotos",
@@ -211,6 +217,7 @@
         "column_cpgYdL": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Infografiken.jpg",
             "title": "Infografiken",
             "text": "<p>Zu den Produktfotos bieten wir dir auch noch ergänzend die richtigen Infografiken an, um den Web-Auftritt zu perfektionieren.</p>",
             "link_label": "Zu den Infografiken",
