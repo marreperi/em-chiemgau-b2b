@@ -102,7 +102,7 @@
             "title": "Sicherheitsdatenblätter",
             "text": "<p>Hier findest du alle Sicherheitsdatenblätter zu unseren Produkten. Einfach das gewünschte Produkt wählen & Datenblatt downloaden</p>",
             "link_label": "Zu den Datenblättern",
-            "link": "https://haendler.em-chiemgau.de/pages/sicherheitsdatenblaeter"
+            "link": "shopify://pages/sicherheitsdatenblaetter"
           }
         },
         "column_dnt4Q3": {
