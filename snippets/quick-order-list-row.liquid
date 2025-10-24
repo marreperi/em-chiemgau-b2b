@@ -264,7 +264,7 @@
                         <span style="color: red;">{{ discount_percentage }}%</span>
                         {%- assign price = price_break.price | money_with_currency -%}
                         <span> {{ 'sections.quick_order_list.each' | t: money: price }}</span>
-                      </li>
+                      </li> 
                     {%- endfor -%}
                   </ul>
                 </volume-pricing>
