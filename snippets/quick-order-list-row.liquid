@@ -247,8 +247,8 @@
                     <li>
                       <span>{{ variant.quantity_rule.min }}+</span>
                       {%- comment -%} Debug output {%- endcomment -%}
-                      <small style="color: blue;">DEBUG: item.price={{ item.price }}, variant.price={{ variant.price }}, variant.compare_at_price={{ variant.compare_at_price }}, item.compare_at_price={{ item.compare_at_price }}</small>
-                      {%- assign base_price = variant.compare_at_price | default: item.compare_at_price | default: item.price -%}
+                      <small style="color: blue;">DEBUG: item.price={{ item.price }}, variant.price={{ variant.price }}, product.price={{ product.price }}, variant.compare_at_price={{ variant.compare_at_price }}, item.compare_at_price={{ item.compare_at_price }}</small>
+                      {%- assign base_price = product.price | default: variant.compare_at_price | default: item.compare_at_price | default: item.price -%}
                       {%- assign discount_amount = base_price | minus: variant.price -%}
                       {%- assign discount_percentage = discount_amount | times: 100.0 | divided_by: base_price | round -%}
                       <span style="color: red;">{{ discount_percentage }}%</span>
