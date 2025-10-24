@@ -246,13 +246,8 @@
                   <ul class="list-unstyled">
                     <li>
                       <span>{{ variant.quantity_rule.min }}+</span>
-                      {%- comment -%} Debug: Let's see what prices we have {%- endcomment -%}
-                      {%- comment -%} item.price: {{ item.price }} {%- endcomment -%}
-                      {%- comment -%} variant.price: {{ variant.price }} {%- endcomment -%}
-                      {%- comment -%} variant.compare_at_price: {{ variant.compare_at_price }} {%- endcomment -%}
-                      {%- comment -%} item.compare_at_price: {{ item.compare_at_price }} {%- endcomment -%}
-                      {%- comment -%} First price break: {{ variant.quantity_price_breaks.first.price }} {%- endcomment -%}
-                      {%- comment -%} Last price break: {{ variant.quantity_price_breaks.last.price }} {%- endcomment -%}
+                      {%- comment -%} Debug output {%- endcomment -%}
+                      <small style="color: blue;">DEBUG: item.price={{ item.price }}, variant.price={{ variant.price }}, variant.compare_at_price={{ variant.compare_at_price }}, item.compare_at_price={{ item.compare_at_price }}</small>
                       {%- assign base_price = variant.compare_at_price | default: item.compare_at_price | default: item.price -%}
                       {%- assign discount_amount = base_price | minus: variant.price -%}
                       {%- assign discount_percentage = discount_amount | times: 100.0 | divided_by: base_price | round -%}
