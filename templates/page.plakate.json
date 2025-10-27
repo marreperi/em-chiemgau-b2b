@@ -262,6 +262,7 @@
         "column_gTGrKB": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Power-Spray-EM-Chiemgau.jpg",
             "title": "EM-Power-Lösung",
             "text": "",
             "link_label": "Zum Plakat",
