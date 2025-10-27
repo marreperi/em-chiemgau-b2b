@@ -320,6 +320,7 @@
         "column_P8bH7U": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Plakat-Laden-EM-Chiemgau-Fischers-Frischetuch.pdf.jpg",
             "title": "Fischers Frischetuch",
             "text": "",
             "link_label": "Zum Plakat",
@@ -338,6 +339,7 @@
         "column_73TfFp": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Plakat-Laden-EM-Chiemgau-Linda-Marie-ECOCERT-erklaert.jpg",
             "title": "Linda Marie ECOCERT Erklärung",
             "text": "",
             "link_label": "Zum Plakat",
@@ -347,6 +349,7 @@
         "column_RXgtmb": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Plakat-Laden-EM-Chiemgau-Linda-Marie-Naturkosmetik.jpg",
             "title": "Linda Marie Naturkosmetik",
             "text": "",
             "link_label": "Zum Plakat",
