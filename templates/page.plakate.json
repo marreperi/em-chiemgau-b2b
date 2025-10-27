@@ -22,6 +22,7 @@
         "column_ijBgdj": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Aussaat-mit-EM.pdf.jpg",
             "title": "Aussaat mit EM",
             "text": "",
             "link_label": "Zum Plakat",
@@ -31,6 +32,7 @@
         "column_tn9eNr": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Plakat-Laden-EM-Chiemgau-BioCocktail.jpg",
             "title": "EM Bio-Cocktail",
             "text": "",
             "link_label": "Zum Plakat",
@@ -40,24 +42,17 @@
         "column_UVr743": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Plakat-Laden-EM-Chiemgau-Bokashi-Anleitung.jpg",
             "title": "Bokashi Anleitung",
             "text": "",
             "link_label": "Zum Plakat",
             "link": "https://cdn.shopify.com/s/files/1/0683/4477/4828/files/Plakat-Laden-EM-Chiemgau-Bokashi-Anleitung.pdf?v=1761568121"
           }
         },
-        "column_cqKMad": {
-          "type": "column",
-          "settings": {
-            "title": "Bokashi Eimer Übersicht",
-            "text": "",
-            "link_label": "Zum Plakat",
-            "link": "https://cdn.shopify.com/s/files/1/0683/4477/4828/files/Plakat-Laden-EM-Chiemgau-Bokashi-Eimer-Uebersicht-250801.pdf?v=1761568121"
-          }
-        },
         "column_MihYyk": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Plakat-Laden-EM-Chiemgau-Garten-Fruehling.jpg",
             "title": "Frühling im EM-Garten",
             "text": "",
             "link_label": "Zum Plakat",
@@ -67,7 +62,18 @@
         "column_zT6nHT": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Plakat-Laden-EM-Chiemgau-Garten-Sommer.jpg",
             "title": "Sommer im EM-Garten",
+            "text": "",
+            "link_label": "Zum Plakat",
+            "link": "https://cdn.shopify.com/s/files/1/0683/4477/4828/files/Plakat-Laden-EM-Chiemgau-Garten-Sommer-240805.pdf?v=1761568122"
+          }
+        },
+        "column_DkNEqd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Plakat-Laden-EM-Chiemgau-Garten-Herbst.pdf.jpg",
+            "title": "Herbst im EM-Garten",
             "text": "",
             "link_label": "Zum Plakat",
             "link": "https://cdn.shopify.com/s/files/1/0683/4477/4828/files/Plakat-Laden-EM-Chiemgau-Garten-Sommer-240805.pdf?v=1761568122"
@@ -76,6 +82,7 @@
         "column_tRMdXf": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Plakat-Laden-EM-Chiemgau-Kompost-optimieren.jpg",
             "title": "Kompost optimieren",
             "text": "",
             "link_label": "Zum Plakat",
@@ -85,6 +92,7 @@
         "column_TULNHk": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Plakat-Laden-EM-Chiemgau-RoProStreu-Pflanzenkohle.jpg",
             "title": "RoPro-Streu Pflanzenkohle",
             "text": "",
             "link_label": "Zum Plakat",
@@ -94,6 +102,7 @@
         "column_LKtHVj": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Plakat-Laden-EM-Chiemgau-Schwarzerde.jpg",
             "title": "Bio Chiemgauer Schwarzerde",
             "text": "",
             "link_label": "Zum Plakat",
@@ -114,9 +123,9 @@
         "column_ijBgdj",
         "column_tn9eNr",
         "column_UVr743",
-        "column_cqKMad",
         "column_MihYyk",
         "column_zT6nHT",
+        "column_DkNEqd",
         "column_tRMdXf",
         "column_TULNHk",
         "column_LKtHVj",
