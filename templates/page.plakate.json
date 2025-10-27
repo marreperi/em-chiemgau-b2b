@@ -155,6 +155,7 @@
         "column_hx99JQ": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Druckdatei-Ladenplakat_Lieblinge_Bestseller-EM-Aktiv-Bild.jpg",
             "title": "EM-Aktiv",
             "text": "",
             "link_label": "Zum Plakat",
@@ -164,6 +165,7 @@
         "column_L86GMB": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Druckdatei-Ladenplakat_Lieblinge_Bestseller-EM-blond-Bild.jpg",
             "title": "EM-Blond",
             "text": "",
             "link_label": "Zum Plakat",
@@ -173,6 +175,7 @@
         "column_6JeUEh": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Druckdatei-Ladenplakat_Lieblinge_Bestseller-Mikrorein-Bild.jpg",
             "title": "Mikrorein",
             "text": "",
             "link_label": "Zum Plakat",
@@ -182,6 +185,7 @@
         "column_qhtqJz": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Druckdatei-Ladenplakat_Lieblinge_Bestseller-Sapalotta-Bild.jpg",
             "title": "Sapalotta",
             "text": "",
             "link_label": "Zum Plakat",
@@ -191,6 +195,7 @@
         "column_Dm47kb": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Druckdatei-Ladenplakat_Lieblinge_Bestseller-Waschkugel-Bild.jpg",
             "title": "EM Waschkugel",
             "text": "",
             "link_label": "Zum Plakat",
@@ -247,6 +252,7 @@
         "column_Ycra4F": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Druckdatei-Ladenplakat_Lieblinge_Bestseller-Waschkugel-Vorteile-Bild.jpg",
             "title": "EM Waschkugel Vorteile",
             "text": "",
             "link_label": "Zum Plakat",
