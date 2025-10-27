@@ -309,6 +309,7 @@
         "column_zAnygV": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Kristall-Test-EM-Keramik-2021-Bild.jpg",
             "title": "Kristall Test EM-Keramik",
             "text": "",
             "link_label": "Zum Plakat",
