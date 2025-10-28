@@ -74,7 +74,7 @@
           "settings": {
             "image": "shopify://shop_images/partner_marketing_icon_1.png",
             "title": "Marketing",
-            "text": "<h4><strong>Aufgaben:</strong></h4><h4>Anfrage & Bestellung von Werbematerialien</h4><h4>Beratung zu Aktionen</h4><h4><strong>Kontakt:</strong><br/>marketing@em-chiemgau.de</h4>",
+            "text": "<h4><strong>Aufgaben:</strong></h4><h4>Anfrage & Bestellung von Werbematerialien</h4><h4>Beratung zu Aktionen</h4><h4><strong>Kontakt:</strong><br/><a href=\"mailto:marketing@em-chiemgau.de\" target=\"_blank\" title=\"mailto:marketing@em-chiemgau.de\">marketing@em-chiemgau.de</a></h4>",
             "link_label": "",
             "link": ""
           }
