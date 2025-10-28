@@ -54,7 +54,7 @@
           "settings": {
             "image": "shopify://shop_images/partner_rechnungen_icon_1.png",
             "title": "Rechnungen",
-            "text": "<h4><strong>Aufgaben:</strong></h4><h4>Fragen zu Rechnungen und Zahlungen</h4><h4>Auskunft zu noch offenen Posten</h4><h4>Klärung von Gutschriften oder Korrekturen</h4><h4><strong>Kontakt:<br/></strong>buchhaltung@em-chiemgau.de</h4>",
+            "text": "<h4><strong>Aufgaben:</strong></h4><h4>Fragen zu Rechnungen und Zahlungen</h4><h4>Auskunft zu noch offenen Posten</h4><h4>Klärung von Gutschriften oder Korrekturen</h4><h4><strong>Kontakt:<br/></strong><a href=\"mailto:buchhaltung@em-chiemgau.de\" target=\"_blank\" title=\"mailto:buchhaltung@em-chiemgau.de\">buchhaltung@em-chiemgau.de</a></h4>",
             "link_label": "",
             "link": ""
           }
