@@ -44,7 +44,7 @@
           "settings": {
             "image": "shopify://shop_images/partner_reklamation_icon_1.png",
             "title": "Reklamationen",
-            "text": "<h4><strong>Aufgaben:</strong></h4><h4>Bearbeitung von Reklamationen</h4><h4>Klärung von Qualitäts- und Lieferproblemen</h4><h4>Lösungen für Ersatz- oder Gutschriften</h4><h4><strong>Kontakt:</strong><br/>reklamation@em-chiemgau.de</h4>",
+            "text": "<h4><strong>Aufgaben:</strong></h4><h4>Bearbeitung von Reklamationen</h4><h4>Klärung von Qualitäts- und Lieferproblemen</h4><h4>Lösungen für Ersatz- oder Gutschriften</h4><h4><strong>Kontakt:</strong><br/><a href=\"mailto:reklamation@em-chiemgau.de\" target=\"_blank\" title=\"mailto:reklamation@em-chiemgau.de\">reklamation@em-chiemgau.de</a></h4>",
             "link_label": "",
             "link": ""
           }
