@@ -64,7 +64,7 @@
           "settings": {
             "image": "shopify://shop_images/partner_spedition_icon_1.png",
             "title": "Palettenware",
-            "text": "<h4><strong>Kontakt:</strong><br/>spedition@em-chiemgau.de</h4>",
+            "text": "<h4><strong>Kontakt:</strong><br/><a href=\"mailto:spedition@em-chiemgau.de\" target=\"_blank\" title=\"mailto:spedition@em-chiemgau.de\">spedition@em-chiemgau.de</a></h4>",
             "link_label": "",
             "link": ""
           }
