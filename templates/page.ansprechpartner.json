@@ -24,7 +24,7 @@
           "settings": {
             "image": "shopify://shop_images/partner_programm_1.jpg",
             "title": "Allgemein (Händler & Affiliate)",
-            "text": "<h4><strong>Kontakt:<br/></strong>partner@em-chiemgau.de</h4>",
+            "text": "<h4><strong>Kontakt:<br/></strong><a href=\"mailto:partner@em-chiemgau.de\" title=\"mailto:partner@em-chiemgau.de\">partner@em-chiemgau.de</a></h4>",
             "link_label": "",
             "link": ""
           }
