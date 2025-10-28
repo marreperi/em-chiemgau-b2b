@@ -34,7 +34,7 @@
           "settings": {
             "image": "shopify://shop_images/partner_bestellungen_icon_1.png",
             "title": "Bestellungen",
-            "text": "<h4><strong>Aufgaben:</strong></h4><h4>Aufnahme und Bearbeitung von Bestellungen</h4><h4>Auskunft zu Lieferzeiten und Verfügbarkeit</h4><h4>Unterstützung bei Sonderanfragen</h4><h4><strong>Kontakt:<br/></strong>bestellung@em-chiemgau.de</h4>",
+            "text": "<h4><strong>Aufgaben:</strong></h4><h4>Aufnahme und Bearbeitung von Bestellungen</h4><h4>Auskunft zu Lieferzeiten und Verfügbarkeit</h4><h4>Unterstützung bei Sonderanfragen</h4><h4><strong>Kontakt:<br/></strong><a href=\"mailto:bestellung@em-chiemgau.de\" target=\"_blank\" title=\"mailto:bestellung@em-chiemgau.de\">bestellung@em-chiemgau.de</a></h4>",
             "link_label": "",
             "link": ""
           }
