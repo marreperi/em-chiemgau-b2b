@@ -191,6 +191,7 @@
         "column_jwWtfq": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Plakat-Laden-EM-Chiemgau-Terra-Preta.pdf.jpg",
             "title": "Vorteile von Terra Preta Böden",
             "text": "",
             "link_label": "Zum Plakat",
@@ -234,6 +235,7 @@
         "column_KNE4zT": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Fruehjahrsfreude-Basis-Rezept-EM-Putzloesung-Anti-Kalk.jpg",
             "title": "Basis-Rezepte",
             "text": "",
             "link_label": "Zum Plakat",
