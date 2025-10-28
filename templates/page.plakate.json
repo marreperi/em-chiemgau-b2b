@@ -16,6 +16,85 @@
         "padding_bottom": 0
       }
     },
+    "multicolumn_rAdkVg": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_hx99JQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Druckdatei-Ladenplakat_Lieblinge_Bestseller-EM-Aktiv-Bild.jpg",
+            "title": "EM-Aktiv",
+            "text": "",
+            "link_label": "Zum Plakat",
+            "link": "https://cdn.shopify.com/s/files/1/0683/4477/4828/files/Druckdatei-Ladenplakat_Lieblinge_Bestseller_EM-Aktiv.pdf?v=1761568136"
+          }
+        },
+        "column_L86GMB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Druckdatei-Ladenplakat_Lieblinge_Bestseller-EM-blond-Bild.jpg",
+            "title": "EM-Blond",
+            "text": "",
+            "link_label": "Zum Plakat",
+            "link": "https://cdn.shopify.com/s/files/1/0683/4477/4828/files/Druckdatei-Ladenplakat_Lieblinge_Bestseller_EM-blond.pdf?v=1761568136"
+          }
+        },
+        "column_6JeUEh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Druckdatei-Ladenplakat_Lieblinge_Bestseller-Mikrorein-Bild.jpg",
+            "title": "Mikrorein",
+            "text": "",
+            "link_label": "Zum Plakat",
+            "link": "https://cdn.shopify.com/s/files/1/0683/4477/4828/files/Druckdatei-Ladenplakat_Lieblinge_Bestseller_Mikrorein.pdf?v=1761568136"
+          }
+        },
+        "column_qhtqJz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Druckdatei-Ladenplakat_Lieblinge_Bestseller-Sapalotta-Bild.jpg",
+            "title": "Sapalotta",
+            "text": "",
+            "link_label": "Zum Plakat",
+            "link": "https://cdn.shopify.com/s/files/1/0683/4477/4828/files/Druckdatei-Ladenplakat_Lieblinge_Bestseller_Sapalotta.pdf?v=1761568136"
+          }
+        },
+        "column_Dm47kb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Druckdatei-Ladenplakat_Lieblinge_Bestseller-Waschkugel-Bild.jpg",
+            "title": "EM Waschkugel",
+            "text": "",
+            "link_label": "Zum Plakat",
+            "link": "https://cdn.shopify.com/s/files/1/0683/4477/4828/files/Druckdatei-Ladenplakat_Lieblinge_Bestseller_Waschkugel.pdf?v=1761568136"
+          }
+        }
+      },
+      "block_order": [
+        "column_hx99JQ",
+        "column_L86GMB",
+        "column_6JeUEh",
+        "column_qhtqJz",
+        "column_Dm47kb"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Produktlieblinge",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_PWiHDm": {
       "type": "multicolumn",
       "blocks": {
@@ -134,85 +213,6 @@
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "Garten",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 5,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn_rAdkVg": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_hx99JQ": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Druckdatei-Ladenplakat_Lieblinge_Bestseller-EM-Aktiv-Bild.jpg",
-            "title": "EM-Aktiv",
-            "text": "",
-            "link_label": "Zum Plakat",
-            "link": "https://cdn.shopify.com/s/files/1/0683/4477/4828/files/Druckdatei-Ladenplakat_Lieblinge_Bestseller_EM-Aktiv.pdf?v=1761568136"
-          }
-        },
-        "column_L86GMB": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Druckdatei-Ladenplakat_Lieblinge_Bestseller-EM-blond-Bild.jpg",
-            "title": "EM-Blond",
-            "text": "",
-            "link_label": "Zum Plakat",
-            "link": "https://cdn.shopify.com/s/files/1/0683/4477/4828/files/Druckdatei-Ladenplakat_Lieblinge_Bestseller_EM-blond.pdf?v=1761568136"
-          }
-        },
-        "column_6JeUEh": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Druckdatei-Ladenplakat_Lieblinge_Bestseller-Mikrorein-Bild.jpg",
-            "title": "Mikrorein",
-            "text": "",
-            "link_label": "Zum Plakat",
-            "link": "https://cdn.shopify.com/s/files/1/0683/4477/4828/files/Druckdatei-Ladenplakat_Lieblinge_Bestseller_Mikrorein.pdf?v=1761568136"
-          }
-        },
-        "column_qhtqJz": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Druckdatei-Ladenplakat_Lieblinge_Bestseller-Sapalotta-Bild.jpg",
-            "title": "Sapalotta",
-            "text": "",
-            "link_label": "Zum Plakat",
-            "link": "https://cdn.shopify.com/s/files/1/0683/4477/4828/files/Druckdatei-Ladenplakat_Lieblinge_Bestseller_Sapalotta.pdf?v=1761568136"
-          }
-        },
-        "column_Dm47kb": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Druckdatei-Ladenplakat_Lieblinge_Bestseller-Waschkugel-Bild.jpg",
-            "title": "EM Waschkugel",
-            "text": "",
-            "link_label": "Zum Plakat",
-            "link": "https://cdn.shopify.com/s/files/1/0683/4477/4828/files/Druckdatei-Ladenplakat_Lieblinge_Bestseller_Waschkugel.pdf?v=1761568136"
-          }
-        }
-      },
-      "block_order": [
-        "column_hx99JQ",
-        "column_L86GMB",
-        "column_6JeUEh",
-        "column_qhtqJz",
-        "column_Dm47kb"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "Produktlieblinge",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -376,8 +376,8 @@
   },
   "order": [
     "main",
-    "multicolumn_PWiHDm",
     "multicolumn_rAdkVg",
+    "multicolumn_PWiHDm",
     "multicolumn_aBxwUA",
     "multicolumn_AJzdyK"
   ]
