@@ -245,6 +245,7 @@
         "column_rCyREC": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Plakat-Laden-EM-Chiemgau-Reinigung-mit-EM.jpg",
             "title": "Reinigung mit EM",
             "text": "",
             "link_label": "Zum Plakat",
