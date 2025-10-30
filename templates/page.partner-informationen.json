@@ -141,20 +141,10 @@
         "padding_bottom": 12
       }
     },
-    "multicolumn_XNVAtR": {
+    "multicolumn_QcQcMK": {
       "type": "multicolumn",
       "blocks": {
-        "column_dPkfzK": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Aufkleber.jpg",
-            "title": "EM-Chiemgau Partner Aufkleber",
-            "text": "<p>Du kannst den EM Partner Aufkleber einfach bei uns im Shop, oder per Email an marketing@em-chiemgau.de bestellen.</p>",
-            "link_label": "Zum Partner Aufkleber",
-            "link": "https://haendler.em-chiemgau.de/products/em-ladentuer-aufkleber?_pos=2&_sid=8c192e850&_ss=r"
-          }
-        },
-        "column_g7LB7Q": {
+        "column_yQwJYy": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Aufsteller.jpg",
@@ -164,7 +154,7 @@
             "link": "https://haendler.em-chiemgau.de/products/aufsteller-reinigung-mit-em?_pos=1&_sid=9211b9d9d&_ss=r"
           }
         },
-        "column_md93LX": {
+        "column_3qU6Db": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Beachflags.jpg",
@@ -174,7 +164,7 @@
             "link": ""
           }
         },
-        "column_83mUCE": {
+        "column_9zzwPx": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/RollUp.jpg",
@@ -183,7 +173,34 @@
             "link_label": "Zu den Roll-Ups",
             "link": ""
           }
-        },
+        }
+      },
+      "block_order": [
+        "column_yQwJYy",
+        "column_3qU6Db",
+        "column_9zzwPx"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Werbematerial",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "https://drive.google.com/drive/folders/1Mn_2Gd_erG3BenWhf07-FkCzckVRTUoG",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "multicolumn_XNVAtR": {
+      "type": "multicolumn",
+      "blocks": {
         "column_mdLfVA": {
           "type": "column",
           "settings": {
@@ -226,10 +243,6 @@
         }
       },
       "block_order": [
-        "column_dPkfzK",
-        "column_g7LB7Q",
-        "column_md93LX",
-        "column_83mUCE",
         "column_mdLfVA",
         "column_9VcBcT",
         "column_RHrLrc",
@@ -237,7 +250,7 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Werbematerial",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -249,7 +262,7 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 12,
+        "padding_top": 0,
         "padding_bottom": 12
       }
     },
@@ -289,6 +302,7 @@
     "main",
     "multicolumn_NHYUte",
     "multicolumn_cGyQP3",
+    "multicolumn_QcQcMK",
     "multicolumn_XNVAtR",
     "rich_text_cmLfwX"
   ]
