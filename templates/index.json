@@ -312,9 +312,9 @@
     "featured_collection2": {
       "type": "featured-collection",
       "settings": {
-        "collection": "sale",
-        "products_to_show": 6,
-        "title": "Sale",
+        "collection": "em-fur-den-herbst",
+        "products_to_show": 14,
+        "title": "EM für den Herbst",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
