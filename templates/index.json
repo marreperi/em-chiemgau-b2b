@@ -236,7 +236,7 @@
         "title": "Unsere Top-Kategorien",
         "heading_size": "h2",
         "image_ratio": "adapt",
-        "columns_desktop": 6,
+        "columns_desktop": 2,
         "color_scheme": "scheme-3f252934-b009-45a0-92d9-78e18a2fcd04",
         "show_view_all": false,
         "columns_mobile": "1",
