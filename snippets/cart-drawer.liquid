@@ -428,6 +428,12 @@
                                   </span>
                                 </button>
                                 {%- if item.variant.quantity_price_breaks.size > 0 -%}
+                                  {%- assign base_price_decimal = item.variant.metafields.custom.base_variant_price.value | default: '' -%}
+                                  {%- if base_price_decimal != '' -%}
+                                    <div class="volume-pricing-uvp caption">
+                                      UVP {{ item.variant.metafields.custom.base_variant_price.value | money }}
+                                    </div>
+                                  {%- endif -%}
                                   <volume-pricing class="parent-display">
                                     <ul class="list-unstyled">
                                       <li>
