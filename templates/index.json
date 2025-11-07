@@ -163,6 +163,50 @@
         "padding_bottom": 4
       }
     },
+    "rich_text_GKbPhC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bn4pmA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Neuer Shop - Hinweise",
+            "heading_size": "h1"
+          }
+        },
+        "text_byhe9P": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In unserem neuen Händler-Shop können unsere Partner aus Deutschland, Österreich, Schweiz und den Niederlanden bestellen.</p><p><strong>Bei Fragen: Kontakt aufnehmen</strong></p>"
+          }
+        },
+        "button_TpbYMG": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_bn4pmA",
+        "text_byhe9P",
+        "button_TpbYMG"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "featured_collection1": {
       "type": "featured-collection",
       "settings": {
@@ -405,6 +449,7 @@
     "image_banner",
     "multicolumn",
     "rich_text",
+    "rich_text_GKbPhC",
     "featured_collection1",
     "collection_list",
     "multicolumn1",
