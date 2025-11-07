@@ -20,13 +20,14 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image_overlay_opacity": 20,
+        "image": "shopify://shop_images/Garten-und-Gebaeude-2025-Mai.jpg",
+        "image_overlay_opacity": 60,
         "image_height": "adapt",
-        "image_behavior": "none",
+        "image_behavior": "ambient",
         "desktop_content_position": "middle-left",
         "desktop_content_alignment": "left",
         "show_text_box": false,
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "stack_images_on_mobile": true,
         "mobile_content_alignment": "center",
         "show_text_below": true
