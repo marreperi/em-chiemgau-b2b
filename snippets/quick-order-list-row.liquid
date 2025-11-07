@@ -241,8 +241,9 @@
                 {%- endif -%}
 
                 {%- if base_price_decimal != '' -%}
-                  <div class="volume-pricing-uvp caption">
-                    UVP {{ variant.metafields.custom.base_variant_price.value | money }}
+                  {%- assign base_price_cents_for_display = base_price_decimal | times: 100 | round -%}
+                  <div class="volume-pricing-uvp caption" style="padding: .6rem .8rem;">
+                    UVP {{ base_price_cents_for_display | money }}
                   </div>
                 {%- endif -%}
 
