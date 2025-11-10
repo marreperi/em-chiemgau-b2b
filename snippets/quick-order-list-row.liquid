@@ -430,15 +430,6 @@
         , measurement: item.unit_price_measurement %}
     {%- endif -%}
   </td>
-  <td class="variant-item__uvp small-hide medium-hide">
-    {%- assign base_price_decimal = variant.metafields.custom.base_variant_price.value | default: '' -%}
-    {%- if base_price_decimal != '' -%}
-      {%- assign base_price_cents_for_display = base_price_decimal | times: 100 | round -%}
-      <span class="price">{{ base_price_cents_for_display | money }}</span>
-    {%- else -%}
-      <span class="price">—</span>
-    {%- endif -%}
-  </td>
   <td class="variant-item__totals right small-hide medium-hide">
     {%- render 'loading-spinner' -%}
     {% comment %} TODO: enable theme-check once `line_items_for` is accepted as valid filter {% endcomment %}
@@ -458,7 +449,6 @@
       <span class="svg-wrapper">{{ 'icon-error.svg' | inline_asset_content }}</span>
     </div>
   </td>
-  <td></td>
   <td></td>
   <td></td>
   <td></td>
