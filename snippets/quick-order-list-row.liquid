@@ -337,7 +337,8 @@
     {%- assign base_price_decimal = variant.metafields.custom.base_variant_price.value | default: '' -%}
     {%- if base_price_decimal != '' -%}
       {%- assign base_price_cents_for_display = base_price_decimal | times: 100 | round -%}
-      <span class="price">{{ base_price_cents_for_display | money }}</span>
+      {%- assign base_price_formatted = base_price_cents_for_display | money -%}
+      <span class="price">{{ 'sections.quick_order_list.each' | t: money: base_price_formatted }}</span>
     {%- else -%}
       <span class="price">—</span>
     {%- endif -%}
