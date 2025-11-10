@@ -1,4 +1,9 @@
 {{ 'section-main-page.css' | asset_url | stylesheet_tag }}
+{% if template contains 'page' %}
+  {% if page.handle == 'agb' or page.handle == 'datenschutz' or page.handle == 'legal-notice' or page.handle == 'ueber-uns' %}
+    <meta name="robots" content="noindex,nofollow">
+  {% endif %}
+{% endif %}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
