@@ -535,5 +535,12 @@
       "expanded": "Formular für den Empfänger des Gutscheins erweitert",
       "collapsed": "Formular für den Empfänger des Gutscheins minimiert"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "shop_policies": {
+        "cookie_preferences": "Cookies"
+      }
+    }
   }
 }
