@@ -1,0 +1,232 @@
+<section class="events-wrap">
+  <div class="page-width">
+
+    {% if section.settings.heading != blank %}
+      <h2 class="events-heading">{{ section.settings.heading }}</h2>
+    {% endif %}
+
+    {% assign now_ts = 'now' | date: '%s' %}
+
+    {%- comment -%}
+      Prüfen, ob mindestens ein Event Kosten hat
+    {%- endcomment -%}
+    {% assign show_price = false %}
+    {% for block in section.blocks %}
+      {% if block.settings.price != blank %}
+        {% assign show_price = true %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+
+    <div class="events-table-scroll">
+      <table class="events-table">
+        <thead>
+          <tr>
+            <th>Tag</th>
+            <th>Veranstaltung</th>
+            <th>Zeit / Ort</th>
+            {% if show_price %}
+              <th>Kosten</th>
+            {% endif %}
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          {% for block in section.blocks %}
+            {% assign start_raw = block.settings.start_iso | strip %}
+
+            {% if start_raw != blank %}
+              {% assign start_ts = start_raw | date: '%s' %}
+              {% if section.settings.hide_past and start_ts < now_ts %}
+                {% continue %}
+              {% endif %}
+
+              {% assign day = start_raw | date: '%d' %}
+              {% assign month_num = start_raw | date: '%m' %}
+              {% case month_num %}
+                {% when '01' %}{% assign month = 'Jan' %}
+                {% when '02' %}{% assign month = 'Feb' %}
+                {% when '03' %}{% assign month = 'Mär' %}
+                {% when '04' %}{% assign month = 'Apr' %}
+                {% when '05' %}{% assign month = 'Mai' %}
+                {% when '06' %}{% assign month = 'Jun' %}
+                {% when '07' %}{% assign month = 'Jul' %}
+                {% when '08' %}{% assign month = 'Aug' %}
+                {% when '09' %}{% assign month = 'Sep' %}
+                {% when '10' %}{% assign month = 'Okt' %}
+                {% when '11' %}{% assign month = 'Nov' %}
+                {% when '12' %}{% assign month = 'Dez' %}
+                {% else %}{% assign month = '' %}
+              {% endcase %}
+            {% else %}
+              {% assign day = block.settings.day %}
+              {% assign month = block.settings.month %}
+            {% endif %}
+
+            <tr {{ block.shopify_attributes }}>
+              <td class="event-date">
+                <div class="date-day">{{ day }}.</div>
+                <div class="date-month">{{ month }}</div>
+              </td>
+
+              <td class="event-title">
+                <div class="event-title-main">{{ block.settings.title }}</div>
+                {% if block.settings.subtitle != blank %}
+                  <div class="event-subtitle">{{ block.settings.subtitle }}</div>
+                {% endif %}
+              </td>
+
+              <td class="event-timeplace">
+                {{ block.settings.time }}<br>
+                {{ block.settings.location }}
+              </td>
+
+              {% if show_price %}
+                <td class="event-price">
+                  {{ block.settings.price }}
+                </td>
+              {% endif %}
+
+              <td class="event-details">
+                {% if block.settings.link != blank %}
+                  <a href="{{ block.settings.link }}">
+                    {{ block.settings.link_label | default: 'Mehr erfahren' }}
+                  </a>
+                {% endif %}
+              </td>
+            </tr>
+          {% endfor %}
+
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <style>
+    .events-table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 800px;
+    }
+
+    .events-table th,
+    .events-table td {
+      padding: 14px 12px;
+      border-bottom: 1px solid #eaeaea;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .event-date {
+      font-weight: bold;
+      color: #2aa9c8;
+      line-height: 1.1;
+    }
+
+    .date-day {
+      font-size: 26px;
+    }
+
+    .date-month {
+      font-size: 14px;
+      opacity: 0.7;
+    }
+
+    .event-title-main {
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .event-subtitle {
+      font-size: 13px;
+      opacity: 0.7;
+      margin-top: 2px;
+    }
+
+    .events-table-scroll {
+      overflow-x: auto;
+    }
+
+    @media (max-width: 768px) {
+      .events-table thead { display: none; }
+
+      .events-table,
+      .events-table tbody,
+      .events-table tr,
+      .events-table td {
+        display: block;
+        width: 100%;
+      }
+
+      .events-table tr {
+        margin-bottom: 20px;
+        border-bottom: 2px solid #eee;
+      }
+
+      .event-date { margin-bottom: 6px; }
+    }
+  </style>
+</section>
+
+{% schema %}
+{
+  "name": "Veranstaltungen–Tabelle",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Überschrift",
+      "default": "Termine"
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_past",
+      "label": "Vergangene Termine automatisch ausblenden",
+      "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "event",
+      "name": "Veranstaltung",
+      "settings": [
+        {
+          "type": "text",
+          "id": "start_iso",
+          "label": "Start (ISO) z.B. 2026-01-20 09:30",
+          "info": "Format: YYYY-MM-DD oder YYYY-MM-DD HH:MM"
+        },
+        { "type": "text", "id": "day", "label": "Tag (Fallback, optional)" },
+        { "type": "text", "id": "month", "label": "Monat (Fallback, optional)" },
+
+        { "type": "text", "id": "title", "label": "Titel" },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "Zusatzinfo unter Titel (klein)",
+          "info": "z. B. Präsenzseminar · Fortbildung · begrenzte Plätze"
+        },
+
+        { "type": "text", "id": "time", "label": "Zeit" },
+        { "type": "text", "id": "location", "label": "Ort" },
+        { "type": "text", "id": "price", "label": "Kosten (leer lassen, wenn keine)" },
+
+        { "type": "url", "id": "link", "label": "Link zur Detailseite" },
+        {
+          "type": "text",
+          "id": "link_label",
+          "label": "Link-Text",
+          "default": "Mehr erfahren"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Veranstaltungen – Tabelle (manuell)"
+    }
+  ]
+}
+{% endschema %}
